@@ -39,9 +39,8 @@
     <DocumentationFile>..\..\..\build\VS.NET.2010\Spring.Scheduling.Quartz21\Release\Spring.Scheduling.Quartz21.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Common.Logging, Version=2.1.2.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\lib\Net\3.5\Common.Logging.dll</HintPath>
+    <Reference Include="Common.Logging">
+      <HintPath>..\..\..\lib\Net\2.0\Common.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Quartz">
       <HintPath>..\..\..\lib\Quartz21\net\3.5\Quartz.dll</HintPath>
